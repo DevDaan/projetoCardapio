@@ -1,0 +1,111 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Calibri';
+    width: 910px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+} 
+
+
+
+
+header{
+    margin-bottom: 25px;
+    margin-left: 50px;
+    border-bottom: 1px solid rgb(187, 185, 185);
+    padding: 20px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+
+main{
+    overflow: hidden;
+}
+
+nav.opcoes{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    margin-left: 35px;
+
+}
+
+nav.opcoes p{
+    color: gray;
+    margin-left: 10px;
+    margin-top: -9px;
+}
+
+section.entradas{
+    width: 61%;
+    float: right;
+    padding: 10px;
+    border-left: 1px solid rgb(187, 185, 185);
+
+}
+
+.entradas h2{
+    margin-top: 0;
+}
+.fotoEntrada img{
+    padding: 1px;
+    width: 250px;
+    float: right;
+    border: 1px solid rgb(187, 185, 185);
+}
+.entradas h3, p{
+    margin-left: 20px;
+}
+
+.entradas p{
+    margin-top: -10px;
+}
+.entradas a{
+    margin-bottom: 0;
+    color: black;
+    text-decoration: none;
+}
+
+
+.logo{
+    width: 20px;
+}
+
+div.logo img{
+    position: absolute;
+    margin-top: -10px;
+    width: 250px;
+}
+
+.rodape h3, .rodape p {
+    color: white;
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+.rodape p{
+    margin-bottom: 0;
+} 
+
+
+.rodape{
+
+    position: relative;
+    margin-top: 40px;
+    width: 910px;
+    height: 150px;
+    background-color:rgb(214, 204, 204);
+    padding: 20px;
+
+}
+
+
+
